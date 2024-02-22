@@ -1,0 +1,19 @@
+<%- include("partials/header"); -%>
+<div class="landing-hero">
+    <h1>Maximize your Social Security and Medicare.</h1>
+  <p>You worked hard and paid into the system for years. Don't miss out on your hard-earned benefits.</p>
+  <div class="contact-form">
+    <form action="/" method="POST">
+      <p><b>Download our FREE 2024 reference guide.</b></p>
+      <input type="text" placeholder="Name" id="fullName" name="fullName" required>
+      <input type="email" placeholder="Email" id="emai" name="emai" required>
+      <span class="label-header">You will receive an email with your reference sheet.</span>
+      <div class="opt-in">
+        <input type="checkbox" id="optInYes" name="marketingOptIn" value="yes" checked>
+        <label for="optInYes">I agree to Tanner keeping me informed by email with news, advice, and strategies tailored to my situation from time to time. You can stop receiving these emails at any time by replying "STOP" to any of our emails. </label>
+      </div>
+      <input type="submit" value="CLAIM NOW">
+    </form>
+  </div>
+</div>
+<%- include("partials/footer"); -%>

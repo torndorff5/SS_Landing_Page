@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.landing-hero {
+    top: 0;
+    width: 100%;
+    padding: 10% 20%;
+    height: 100vh;
+    position: absolute;
+    text-align: center;
+    background-color: #002949;
+    color: white;
+}
+h1 {
+    font-size: 24pt;
+}
+p {
+    margin: 25px 0%;
+    font-size: 16px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"]{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.contact-form input[type="submit"] {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: white;
+    color: #002949;
+    border-radius: 4px;
+    border: none;
+    padding: 10px;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #333333;
+    color: white;
+}
+
+.contact-form input::placeholder {
+    color: black;
+    font-style: italic;
+}
+.contact-form label {
+    font-size: 12px;
+}
+
+span {
+    font-size: 16px;
+    text-align: left;
+    font-weight: normal;
+}
+label {
+    text-align: left;
+    margin-left: 15px;
+}
+
+.opt-in{
+    display: flex;
+    align-items: flex-start;
+}
